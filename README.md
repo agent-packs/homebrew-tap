@@ -6,9 +6,8 @@ This tap publishes the Homebrew formula for
 ## Release Sync
 
 The formula is synced from the latest public `agent-packs/cli` GitHub release.
-The sync workflow can run three ways:
+The sync workflow can run two ways:
 
-- automatically every hour;
 - manually with `workflow_dispatch`;
 - immediately after a CLI release when the CLI repo dispatches the
   `agent-packs-release` event.
