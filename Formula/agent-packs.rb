@@ -41,6 +41,6 @@ class AgentPacks < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/agent-packs version")
+    assert_match version.to_s, shell_output("#{bin}/agent-packs version")
   end
 end
