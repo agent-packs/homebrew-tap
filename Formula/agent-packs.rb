@@ -1,26 +1,26 @@
 class AgentPacks < Formula
-  desc "Homebrew for AI agent skills and plugins — install curated packs into Claude Code, Cursor, Codex, and more"
+  desc "Homebrew for AI agent skills and plugins - install curated packs into Claude Code, Cursor, Codex, and more"
   homepage "https://github.com/agent-packs/cli"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agent-packs/cli/releases/download/v0.5.0/agent-packs_darwin_arm64.tar.gz"
-      sha256 "b7b1545efbdbbb44b89f6366c7f19f5047ac64e7fe9b321b20ad954dce9b5bf0"
+      url "https://github.com/agent-packs/cli/releases/download/v0.6.0/agent-packs_darwin_arm64.tar.gz"
+      sha256 "7e7c2e3c7040a904f387b3333f2a1fdf7fae6308b73cdb5cb08142763435c1f4"
     else
-      url "https://github.com/agent-packs/cli/releases/download/v0.5.0/agent-packs_darwin_amd64.tar.gz"
-      sha256 "ad1fe239edb840abe4dad1eafe2e5d69a445179bc469405bff6bf923ac2b79cb"
+      url "https://github.com/agent-packs/cli/releases/download/v0.6.0/agent-packs_darwin_amd64.tar.gz"
+      sha256 "6791d556e5f9868c439c7cbfb05acf23d695274a10ae18d54fc66053f43b659f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agent-packs/cli/releases/download/v0.5.0/agent-packs_linux_arm64.tar.gz"
-      sha256 "9ca566698b3d1752bf3bd7f17451b84ac5afeb61e998c9c4e56acb399900e97b"
+      url "https://github.com/agent-packs/cli/releases/download/v0.6.0/agent-packs_linux_arm64.tar.gz"
+      sha256 "8296f1c010810da3c6fd1bf2fd910203e3946a40af41c18104fd5ca132d9c274"
     else
-      url "https://github.com/agent-packs/cli/releases/download/v0.5.0/agent-packs_linux_amd64.tar.gz"
-      sha256 "1f964ecee3fa37f795d4acb87d703e6f355430158e77ae7f823c347dcd448834"
+      url "https://github.com/agent-packs/cli/releases/download/v0.6.0/agent-packs_linux_amd64.tar.gz"
+      sha256 "857f96c0782ee5d1d2d33cb8930e981f086d234906718580ec56b2d76b931c37"
     end
   end
 
